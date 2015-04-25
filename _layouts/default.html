@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script src="{{ site.baseurl | append: "/bower_components/jquery/dist/jquery.min.js" }}"></script>
+    <script src="{{ site.baseurl | append: "/bower_components/foundation/js/foundation.min.js" }}"></script>
+    <script src="{{ site.baseurl | append: "/js/app.js" }}"></script>
+  </body>
+
+</html>

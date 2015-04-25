@@ -1,0 +1,13 @@
+# Site settings
+title: The Grey Area
+email: mail@greythompson.com
+description: The musings of a UX consultant.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: GreyThompson
+github_username:  GreyThompson
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

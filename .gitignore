@@ -1,4 +1,6 @@
+_site
+.sass-cache
 *.DS_Store
-/css/*
-/bower_components/*
-/node_modules/*
+# /css/*
+$ /bower_components/*
+/note_modules/*

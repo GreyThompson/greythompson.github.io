@@ -1,9 +1,30 @@
 @import "settings";
 @import "foundation";
 
-// h1 {
-//   color:red;
-// }
+// Custom Styles
+#hero{
+  background-image: url("../assets/suits-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.hook-box{
+  background: rgba(0,0,0,0.5);
+  padding: 1rem;
+  margin-bottom: 3rem;
+
+  h1,h4 {
+    color: white
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
 
 // Or selectively include components
 // @import

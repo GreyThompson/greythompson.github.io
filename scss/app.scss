@@ -2,7 +2,7 @@
 @import "foundation";
 
 // Custom Styles
-#hero{
+#hero {
   background-image: url("../assets/suits-bg.jpg");
   background-position: center;
   background-attachment: fixed;
@@ -11,7 +11,7 @@
   padding-top: 3rem;
 }
 
-.hook-box{
+.hook-box {
   background: rgba(0,0,0,0.5);
   padding: 1rem;
   margin-bottom: 3rem;
@@ -23,6 +23,28 @@
   a {
     text-decoration: none;
     color: white;
+  }
+}
+
+.top-bar {
+  .nav-img {
+    height: 90%;
+    border-radius: 100%;
+    margin-top: 3px;
+    margin-left: 10px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+}
+
+footer {
+  margin-top: 20px !important;
+
+  .social-media-list {
+    text-align: center;
+  }
+  .text {
+    text-align: justify;
   }
 }
 
